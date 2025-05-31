@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FiadoCheckApp.Views.ConsultarEstadoMora"
+             Title="Consulta de Estado de Mora">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <!-- Encabezado: Deuda total y actualización -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Deuda Total"
+                   FontSize="16"
+                   TextColor="{StaticResource TextDark}"
+                   Grid.Column="0" />
+
+            <Label Text="Actualizado: Hoy a las 10:30 AM"
+                   FontSize="12"
+                   TextColor="{StaticResource TextLight}"
+                   HorizontalOptions="End"
+                   Grid.Column="1" />
+
+            <Label Text="$255.000"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource PrimaryBlue}"
+                   Margin="0,25,0,0"
+                   Grid.ColumnSpan="2" />
+        </Grid>
+
+        <!-- Lista de estados de mora -->
+        <CollectionView ItemsSource="{Binding EstadosDeMora}" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10" ColumnSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icono del estado (círculo con color) -->
+                        <Frame WidthRequest="30" HeightRequest="30"
+                               BackgroundColor="{Binding Color}"
+                               CornerRadius="15"
+                               VerticalOptions="Center"
+                               HasShadow="False"
+                               Padding="0">
+                            <!-- Aquí podrías poner un icono -->
+                        </Frame>
+
+                        <!-- Texto de estado y vencimiento -->
+                        <VerticalStackLayout Grid.Column="1" Spacing="2">
+                            <Label Text="{Binding Estado}"
+                                   FontAttributes="Bold"
+                                   TextColor="{Binding Color}" />
+                            <Label Text="{Binding Monto}"
+                                   FontSize="14"
+                                   TextColor="Black" />
+                            <Label Text="{Binding Vencimiento}"
+                                   FontSize="12"
+                                   TextColor="{StaticResource TextLight}" />
+                        </VerticalStackLayout>
+
+                        <!-- Flecha (>) -->
+                        <Image Source="chevron_right.png"
+                               WidthRequest="20"
+                               HeightRequest="20"
+                               Grid.Column="2"
+                               VerticalOptions="Center" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Barra de navegación inferior -->
+        <Grid Padding="10,0" HeightRequest="60" VerticalOptions="End">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                <Image Source="home.png" HeightRequest="24" />
+                <Label Text="Inicio" FontSize="10" />
+            </StackLayout>
+            <StackLayout Grid.Column="1" HorizontalOptions="Center">
+                <Image Source="search.png" HeightRequest="24" />
+                <Label Text="Buscar" FontSize="10" />
+            </StackLayout>
+            <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                <Image Source="alert.png" HeightRequest="24" />
+                <Label Text="Alertas" FontSize="10" />
+            </StackLayout>
+            <StackLayout Grid.Column="3" HorizontalOptions="Center">
+                <Image Source="user.png" HeightRequest="24" />
+                <Label Text="Perfil" FontSize="10" />
+            </StackLayout>
+        </Grid>
+
+    </VerticalStackLayout>
+
+</ContentPage>
