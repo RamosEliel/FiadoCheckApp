@@ -1,1 +1,1 @@
-C:\Users\Eliel\OneDrive\Documentos\SÉPTIMO-SEMESTRE\GESTIÓN DE PROYECTOS DE INGENIERÍA DEL SOFTWARE\FiadoCheckApp\FiadoCheckApp\FiadoCheckApp.csproj;x64
+C:\Users\Eliel\OneDrive\Documentos\GitHub\FiadoCheckApp\FiadoCheckApp\FiadoCheckApp.csproj;x64

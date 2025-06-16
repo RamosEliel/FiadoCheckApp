@@ -4,12 +4,34 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FiadoCheckApp"
+    xmlns:views="clr-namespace:FiadoCheckApp.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="FiadoCheckApp">
 
     <ShellContent
         Title="FiadoCheck"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:LoginView}"
+        Route="LoginView"/>
 
+    <TabBar>
+        <ShellContent
+            Title="Inicio"
+            Icon="home.png"
+             />
+
+        <ShellContent
+            Title="Buscar"
+            Icon="search.png"
+            />
+
+        <ShellContent
+            Title="Notificaciones"
+            Icon="bell.png"
+             />
+
+        <ShellContent
+            Title="Perfil"
+            Icon="user.png"
+             />
+    </TabBar>
 </Shell>

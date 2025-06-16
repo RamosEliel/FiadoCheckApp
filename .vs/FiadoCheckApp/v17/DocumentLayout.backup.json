@@ -1,38 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\api\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\api\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\api\\responsemodels\\deudasresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\api\\responsemodels\\deudasresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\AppShell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\AppShell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\views\\consultarestadomora.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\views\\consultarestadomora.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\views\\consultarestadomora.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\views\\consultarestadomora.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\api\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\api\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Resources\\Styles\\Colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FiadoCheckApp\\Resources\\Styles\\Colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\views\\registroclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\views\\registroclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\views\\registroclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\views\\registroclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|c:\\users\\eliel\\onedrive\\documentos\\github\\fiadocheckapp\\fiadocheckapp\\api\\responsemodels\\clientesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD1A901-D740-4596-9819-3E35784675F3}|FiadoCheckApp\\FiadoCheckApp.csproj|solutionrelative:fiadocheckapp\\api\\responsemodels\\clientesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,100 +66,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\App.xaml.cs",
-              "RelativeToolTip": "FiadoCheckApp\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:14:06.747Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\App.xaml",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\App.xaml",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\App.xaml",
-              "RelativeToolTip": "FiadoCheckApp\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T23:13:36.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsultarEstadoMora.xaml",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
-              "RelativeToolTip": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswAYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T23:07:49.613Z",
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\LoginView.xaml.cs",
+              "RelativeToolTip": "FiadoCheckApp\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T23:10:43.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConsultarEstadoMora.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
-              "RelativeToolTip": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Title": "DeudasResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\ResponseModels\\DeudasResponse.cs",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\API\\ResponseModels\\DeudasResponse.cs",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\ResponseModels\\DeudasResponse.cs",
+              "RelativeToolTip": "FiadoCheckApp\\API\\ResponseModels\\DeudasResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:17:20.02Z"
+              "WhenOpened": "2025-06-06T23:02:34.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\AppShell.xaml",
-              "RelativeToolTip": "FiadoCheckApp\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T22:38:30.424Z"
+              "Title": "ConsultarEstadoMora.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
+              "RelativeToolTip": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwCwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:56:54.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\MainPage.xaml",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\MainPage.xaml",
-              "RelativeToolTip": "FiadoCheckApp\\MainPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "Title": "ConsultarEstadoMora.xaml",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
+              "RelativeToolTip": "FiadoCheckApp\\Views\\ConsultarEstadoMora.xaml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAuwHEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T22:26:28.814Z"
+              "WhenOpened": "2025-06-06T22:56:19.638Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\MainPage.xaml.cs",
-              "RelativeToolTip": "FiadoCheckApp\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T22:26:31.573Z"
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\AppShell.xaml",
+              "RelativeToolTip": "FiadoCheckApp\\AppShell.xaml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T22:40:48.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Resources\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "FiadoCheckApp\\Resources\\Styles\\Colors.xaml",
-              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Escritorio\\FiadoCheckApp\\FiadoCheckApp\\Resources\\Styles\\Colors.xaml",
-              "RelativeToolTip": "FiadoCheckApp\\Resources\\Styles\\Colors.xaml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwCUAAAAAAAAAAAAAAA==",
+              "Title": "RegistroClientes.xaml",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\RegistroClientes.xaml",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\Views\\RegistroClientes.xaml",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\RegistroClientes.xaml",
+              "RelativeToolTip": "FiadoCheckApp\\Views\\RegistroClientes.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T22:34:23.548Z"
+              "WhenOpened": "2025-06-06T20:00:43.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistroClientes.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\RegistroClientes.xaml.cs",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\Views\\RegistroClientes.xaml.cs",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\Views\\RegistroClientes.xaml.cs",
+              "RelativeToolTip": "FiadoCheckApp\\Views\\RegistroClientes.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wFYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T20:45:56.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\Constants.cs",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\API\\Constants.cs",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\Constants.cs*",
+              "RelativeToolTip": "FiadoCheckApp\\API\\Constants.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:20:52.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientesResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\ResponseModels\\ClientesResponse.cs",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\API\\ResponseModels\\ClientesResponse.cs",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\ResponseModels\\ClientesResponse.cs",
+              "RelativeToolTip": "FiadoCheckApp\\API\\ResponseModels\\ClientesResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:19:24.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\Auth.cs",
+              "RelativeDocumentMoniker": "FiadoCheckApp\\API\\Auth.cs",
+              "ToolTip": "C:\\Users\\Eliel\\OneDrive\\Documentos\\GitHub\\FiadoCheckApp\\FiadoCheckApp\\API\\Auth.cs",
+              "RelativeToolTip": "FiadoCheckApp\\API\\Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:18:24.797Z",
+              "EditorCaption": ""
             }
           ]
         }

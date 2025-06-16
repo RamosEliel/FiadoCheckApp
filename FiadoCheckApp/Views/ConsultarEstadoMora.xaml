@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FiadoCheckApp.Views.ConsultarEstadoMora"
              Title="Consulta de Estado de Mora">
+    
+    
 
     <VerticalStackLayout Padding="20" Spacing="20">
 
@@ -32,8 +34,18 @@
                    Grid.ColumnSpan="2" />
         </Grid>
 
+
+            <ActivityIndicator 
+                IsRunning="True"
+                IsVisible="False"
+                Margin="0, 280, 0, 420"
+                Color="#208D2B"
+                HorizontalOptions="CenterAndExpand"
+                x:Name="Loader"/>
+
+
         <!-- Lista de estados de mora -->
-        <CollectionView ItemsSource="{Binding EstadosDeMora}" SelectionMode="None">
+        <CollectionView ItemsSource="{Binding}" SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid Padding="10" ColumnSpacing="10">
@@ -49,7 +61,8 @@
                                CornerRadius="15"
                                VerticalOptions="Center"
                                HasShadow="False"
-                               Padding="0">
+                               Padding="0"
+                               x:Name="ColorEstado">
                             <!-- Aquí podrías poner un icono -->
                         </Frame>
 

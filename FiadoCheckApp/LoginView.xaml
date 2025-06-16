@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+           BackgroundColor="#ECEFCA"  
+           NavigationPage.HasNavigationBar="False"  
+           x:Class="FiadoCheckApp.LoginView"
+           Title="Login"
+           Padding="0">
+
+    <ContentPage.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#213448" StatusBarStyle="DarkContent"/>
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="*,Auto,2*" Padding="30">  
+
+      <VerticalStackLayout VerticalOptions="Center">  
+          <Image Source="ball.svg"  HeightRequest="100"  WidthRequest="100"  HorizontalOptions="Center"/>
+
+            <Label Text="FiadoCheck"  FontSize="36"  FontFamily="Raleway Bold"  TextColor="#213448"  HorizontalOptions="Center"  Margin="0,10,0,0"/>
+
+            <Label Text="Fiados claros, cuentas sanas."  FontSize="16"  FontFamily="Raleway Regular"  TextColor="#547792"  HorizontalOptions="Center"  Margin="0,5,0,20"/>  
+      </VerticalStackLayout>
+
+        <Border Grid.Row="2"  StrokeShape="RoundRectangle 25"  BackgroundColor="#94B4C1"  Padding="25"  StrokeThickness="1" Stroke="#CAF0F8" Margin="0,0,0,40">  
+
+          <VerticalStackLayout Spacing="20">  
+
+              <Label Text="Iniciar sesión"  FontSize="28"  TextColor="#1B2A41" FontFamily="Raleway Bold" HorizontalOptions="Center"/>
+
+                <Border StrokeShape="RoundRectangle 15" Background="White" Stroke="Transparent">
+                    <Entry Placeholder="nombre de usuario"  PlaceholderColor="#999"  TextColor="Black" BackgroundColor="White" HeightRequest="50"  FontSize="16"  x:Name="nombreUsuario"  Margin="0,10,0,0"  Keyboard="Email" 
+                     />
+                </Border>
+
+                <Border StrokeShape="RoundRectangle 15" Background="White" Stroke="Transparent" >
+                    <Entry Placeholder="Contraseña" PlaceholderColor="#999"  TextColor="Black" BackgroundColor="White"  HeightRequest="50"  FontSize="16"  IsPassword="True"  x:Name="Password"  />
+                </Border>
+
+                <Button Text="Entrar" BackgroundColor="#547792"  TextColor="White"  FontSize="18"  FontFamily="Raleway Bold"  CornerRadius="12"  HeightRequest="50" Clicked="OnLoginClicked"/>  
+
+
+              <StackLayout HorizontalOptions="Center">
+                    <Label Text="¿No tienes cuenta?"  FontSize="14"  TextColor="#213448"/>
+                    <Button Text="Regístrate aquí"  FontSize="14"  FontFamily="Raleway Bold"  TextColor="#547792"  BackgroundColor="Transparent"  Padding="0" Clicked="OpenRegisterView" />  
+              </StackLayout>  
+
+                <ActivityIndicator IsRunning="True" IsVisible="False" HeightRequest="35" Margin="0, 25, 0, 0" Color="#16370A" x:Name="Loader"/>
+
+          </VerticalStackLayout>  
+      </Border>  
+  </Grid>  
+</ContentPage>

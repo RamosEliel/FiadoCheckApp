@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FiadoCheckApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+660c1dee772376e983b8003feb3d2809daa37fd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FiadoCheckApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FiadoCheckApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

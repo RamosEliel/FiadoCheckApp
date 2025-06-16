@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FiadoCheckApp.Views.RegistroClientes">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="20">
+
+            <Grid ColumnDefinitions="Auto,*,Auto" VerticalOptions="Start" HeightRequest="50">
+
+                <ImageButton Source="back.png" BackgroundColor="Transparent" Clicked="OnBackButtonClicked" Margin="0,0,10,0">
+
+                </ImageButton>
+
+                <Label Grid.Column="1" Text="Registro de Clientes" FontAttributes="Bold" FontSize="Header" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+
+            </Grid>
+
+            <Label Text="Información del Cliente Nuevo" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Subtitle"></Label>
+
+            <Label Text="Nombres y Apellidos" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Medium"></Label>
+            <Entry Placeholder="Ingrese sus Nombres y Apellidos" x:Name="entryNombre" Keyboard="Text"></Entry>
+
+            <Label Text="Nùmero de Identificación" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Medium"></Label>
+            <Entry Placeholder="Ingrese su número de identificación" x:Name="entryIdentificacion" Keyboard="Numeric"></Entry>
+
+            <Label Text="Dirección" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Medium"></Label>
+            <Entry Placeholder="Ingrese sus Dirección" x:Name="entryDireccion" Keyboard="Text"></Entry>
+
+            <Label Text="Teléfono" HorizontalTextAlignment="Start" FontAttributes="Bold" FontSize="Medium"></Label>
+            <Entry Placeholder="Ingrese su Número de Teléfono" x:Name="entryTeléfono" Keyboard="Numeric"></Entry>
+
+            <Button Text="Registrar nuevo cliente" Clicked="OnRegistrarClienteClicked" TextColor="White" Padding="12,8" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+
+        </VerticalStackLayout>
+  
+
+    </ScrollView>
+    
+</ContentPage>

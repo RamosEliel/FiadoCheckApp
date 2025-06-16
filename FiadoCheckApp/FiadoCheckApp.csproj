@@ -57,22 +57,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="NewFolder\**" />
 	  <AndroidResource Remove="Resources\NewFolder1\**" />
 	  <AndroidResource Remove="Resources\NewFolder\**" />
-	  <Compile Remove="NewFolder\**" />
 	  <Compile Remove="Resources\NewFolder1\**" />
 	  <Compile Remove="Resources\NewFolder\**" />
-	  <EmbeddedResource Remove="NewFolder\**" />
 	  <EmbeddedResource Remove="Resources\NewFolder1\**" />
 	  <EmbeddedResource Remove="Resources\NewFolder\**" />
-	  <MauiCss Remove="NewFolder\**" />
 	  <MauiCss Remove="Resources\NewFolder1\**" />
 	  <MauiCss Remove="Resources\NewFolder\**" />
-	  <MauiXaml Remove="NewFolder\**" />
 	  <MauiXaml Remove="Resources\NewFolder1\**" />
 	  <MauiXaml Remove="Resources\NewFolder\**" />
-	  <None Remove="NewFolder\**" />
 	  <None Remove="Resources\NewFolder1\**" />
 	  <None Remove="Resources\NewFolder\**" />
 	</ItemGroup>
@@ -82,23 +76,39 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="API\NewFile1.txt" />
+	  <None Remove="API\ResponseModels\NewFile1.txt" />
+	  <None Remove="NewFile1.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Models\" />
-	</ItemGroup>
-
-	<ItemGroup>
+	  <Compile Update="LoginView.xaml.cs">
+	    <DependentUpon>LoginView.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\ConsultarEstadoMora.xaml.cs">
 	    <DependentUpon>ConsultarEstadoMora.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\RegistroClientes.xaml.cs">
+	    <DependentUpon>RegistroClientes.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="LoginView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ConsultarEstadoMora.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\RegistroClientes.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
